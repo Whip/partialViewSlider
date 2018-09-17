@@ -28,14 +28,18 @@ SOFTWARE.
       // defaults.
       auto: true,
       delay: 4000,
-      controlsPosition: 'inside',
+      controls: true,
+      controlsPosition: 'inside', //inside, outside, neighbors
       prevHtml: '<i class="material-icons">chevron_left</i>',
       nextHtml: '<i class="material-icons">chevron_right</i>',
       width: 70,
       transitionSpeed: 400,
-      onSlideEnd : function() {
-      	console.log('slide ended');
-      }
+      backdrop: true,
+      perspective: false,
+      pauseOnHover: true,
+      keyboard: true,
+      onLoad: function() {},
+      onSlideEnd : function() {}
     }, options);
 
   	this.each(function(){
@@ -43,37 +47,55 @@ SOFTWARE.
 	    el.wrap('<div class="partialViewSlider-outerwrapper"><div class="partialViewSlider-wrapper"></div></div>');
 
 	    var outerWrapper = el.closest('.partialViewSlider-outerwrapper'),
-	    	wrapper = el.closest('.partialViewSlider-wrapper'),
-	    	numSlides = el.find('li').length,
+	    	wrapper = el.closest('.partialViewSlider-wrapper');
+
+	    if(settings.controlsPosition == 'outside'){
+	    	outerWrapper.addClass('partialViewSlider-outsideControls');
+	    } else if(settings.controlsPosition == 'neighbors'){
+	    	outerWrapper.addClass('partialViewSlider-neighborControls');
+	    }
+
+	  	var numSlides = el.find('li').length,
 	    	numElements = numSlides+4,
 	    	wrapperWidth = wrapper.width(),
 	    	slideWidth = wrapperWidth*(settings.width)/100,
 	    	sideWidth = wrapperWidth*((100 - settings.width)/2)/100;
-	    console.log(outerWrapper);
 	    console.log(numSlides+' slides');
 	    console.log(wrapperWidth+'px wrapper');
-	    console.log(slideWidth+'px wide');
+	    console.log(slideWidth+'px slide');
 
 	    var first_slide = el.find("li").slice(0,2),
 		  	last_slide = el.find("li").slice(-2);
 		  el.prepend(last_slide.clone().addClass('partialViewSlider-clone'));
 		  el.append(first_slide.clone().addClass('partialViewSlider-clone'));
-
 	    el.width(numElements*slideWidth);
-	    el.find('li').each(function(){
-	    	$(this).width(slideWidth);
-	    });
+	    var slides = el.find('li');
+	    slides.width(slideWidth);
 
 	    //first move
 	    var index = 0;
 	    var slideMovement = wrapperWidth*settings.width/100;
 	    var firstMovement = currentPosition = -(slideWidth-sideWidth+slideWidth);
 	    el.css('transform', 'translateX('+(firstMovement)+'px)');
+	    $(slides[2]).addClass('active');
+	    setTimeout(function() {
+	    	el.css('transition-duration', settings.transitionSpeed+'ms');
+	    	slides.css('transition-duration', settings.transitionSpeed+'ms');
+	    }, 20);
 
-	    outerWrapper.append('<a href="#" class="partialViewSlider-nav partialViewSlider-prev">'+settings.prevHtml+'</a>');
-	    outerWrapper.append('<a href="#" class="partialViewSlider-nav partialViewSlider-next">'+settings.nextHtml+'</a>');
-	    wrapper.append('<div class="partialViewSlider-backdrop" style="width:'+sideWidth+'px"></div>');
-	    wrapper.append('<div class="partialViewSlider-backdrop partialViewSlider-right" style="width:'+sideWidth+'px"></div>');
+	    if(settings.perspective){
+	    	wrapper.addClass('partialViewSlider-perspective');
+	    }
+
+	    if(settings.controls){
+		    outerWrapper.append('<a href="#" class="partialViewSlider-nav partialViewSlider-prev">'+settings.prevHtml+'</a>');
+		    outerWrapper.append('<a href="#" class="partialViewSlider-nav partialViewSlider-next">'+settings.nextHtml+'</a>');
+		  }
+
+	    if(settings.backdrop){
+		    wrapper.append('<div class="partialViewSlider-backdrop" style="width:'+sideWidth+'px"></div>');
+		    wrapper.append('<div class="partialViewSlider-backdrop partialViewSlider-right" style="width:'+sideWidth+'px"></div>');
+		  }
 
 	    function moveSlider(direction){
 	    	if(direction == 'forward'){
@@ -83,7 +105,9 @@ SOFTWARE.
 		    	index--;
 		    	currentPosition += slideWidth;
 	    	}
-	    	console.log(index);
+	    	console.log(el.find('li').get(index));
+	    	$(slides[index+2]).addClass('active').siblings().removeClass('active');
+
 	    	el.css('transform', 'translateX('+currentPosition+'px)');
 	    	setTimeout(function() {
 		    	if(index > numSlides-1){
@@ -99,12 +123,16 @@ SOFTWARE.
 		    	}
 		    	if(loop){
 		    		console.log(index);
+		    		slides.css('transition-duration', '0ms');
+		    		$(slides[index+2]).addClass('active');
 		    		el.css({
 		    			'transition-duration': '0ms',
 		    			'transform': 'translateX('+currentPosition+'px)'
 		    		});
 		    		setTimeout(function() {
 		    			el.css('transition-duration', settings.transitionSpeed+'ms');
+		    			slides.css('transition-duration', settings.transitionSpeed+'ms');
+
 		    		}, 20);
 		    	}
 
@@ -114,9 +142,20 @@ SOFTWARE.
 	    }
 
 	    if(settings.auto){
-	    	setInterval(function(){
+	    	var looper = setInterval(function(){
 	    		moveSlider('forward');
 	    	}, settings.delay);
+
+	    	if(settings.pauseOnHover){
+	    		wrapper.on('mouseenter', function(){
+	    			clearInterval(looper);
+	    		});
+	    		wrapper.on('mouseleave', function(){
+	    			var looper = setInterval(function(){
+			    		moveSlider('forward');
+			    	}, settings.delay);
+	    		});
+	    	}
 	    }
 
 	    outerWrapper.on('click', '.partialViewSlider-next', function(e){
@@ -128,8 +167,22 @@ SOFTWARE.
 	    	e.preventDefault();
 	    	moveSlider('backward');
 	    });
-  	});
 
-    return this;
+	    if(settings.keyboard){
+	    	$(document).on('keyup', function(e){
+          if(!$(':focus').is('input, textarea')) {
+            if (e.keyCode === 37) {
+              moveSlider('backward');
+            } else if (e.keyCode === 39) {
+              moveSlider('forward');
+            }
+          }
+        });
+	    }
+
+	    settings.onLoad.call(el);
+  		return this;
+  	});
   };
+
 }(jQuery));
