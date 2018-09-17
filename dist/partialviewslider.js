@@ -160,7 +160,10 @@ SOFTWARE.
 	    this.index = 0;
 	    this.slideMovement = this.wrapperWidth*this.options.width/100;
 	    this.firstMovement = this.currentPosition = -(this.slideWidth-this.sideWidth+this.slideWidth);
-	    el.css('transform', 'translateX('+(this.firstMovement)+'px)');
+	    el.css({
+	    	'-webkit-transform': 'translateX('+(this.firstMovement)+'px)',
+	    	'transform': 'translateX('+(this.firstMovement)+'px)'
+	    });
 	    $(this.slides[2]).addClass('active');
 
 	    el.siblings('.partialViewSlider-backdrop').css('width', this.sideWidth);
@@ -177,7 +180,10 @@ SOFTWARE.
 	    	this.currentPosition += this.slideWidth;
     	}
     	$(this.slides[this.index+2]).addClass('active').siblings().removeClass('active');
-    	el.css('transform', 'translateX('+this.currentPosition+'px)');
+    	el.css({
+    		'-webkit-transform': 'translateX('+this.currentPosition+'px)',
+    		'transform': 'translateX('+this.currentPosition+'px)'
+    	});
 
     	setTimeout(function() {
 	    	if(self.index > self.numSlides-1){
@@ -196,6 +202,7 @@ SOFTWARE.
 	    		$(self.slides[self.index+2]).addClass('active');
 	    		el.css({
 	    			'transition-duration': '0ms',
+	    			'-webkit-transform': 'translateX('+self.currentPosition+'px)',
 	    			'transform': 'translateX('+self.currentPosition+'px)'
 	    		});
 	    		setTimeout(function() {

@@ -60,10 +60,12 @@ i.material-icons{
 	transition-timing-function: ease-out;
 }
 .partialViewSlider-wrapper.partialViewSlider-perspective ul > li{
+	-webkit-transform: scale(0.8);
 	transform: scale(0.8);
 	opacity: 0.4;
 }
 .partialViewSlider-wrapper.partialViewSlider-perspective ul > li.active{
+	-webkit-transform: scale(1);
 	transform: scale(1);
 	opacity: 1;
 }
@@ -86,6 +88,7 @@ i.material-icons{
 	top: 50%;
 	color: #FFF;
 	font-size: 3rem;
+	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 .partialViewSlider-prev{
