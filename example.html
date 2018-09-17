@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Example - Partial View Slider</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="cache-control" content="public">
+  <meta http-equiv="expires" content="2592000">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="dist/partialviewslider.min.css">
+  <style type="text/css">
+  	/*reset*/
+		html{
+			font-size: 11px;
+			width: 100%;
+			overflow-x: hidden;
+		}
+		@media (min-width: 600px){
+			html{
+				font-size: 12px;
+			}
+		}
+		@media (min-width: 992px){
+			html{
+				font-size: 14px;
+			}
+		}
+		body{
+			margin: 0;
+			overflow-x: hidden;
+		}
+		img{
+			max-width: 100%;
+		}
+		i.material-icons{
+			vertical-align: sub;
+			font-size: 110%;
+		}
+		.container {
+			width: 95%;
+			max-width: 1300px;
+			margin: 0 auto;
+		}
+  </style>
+</head>
+
+<body>
+	<div class="container">
+		<ul id="partial-view">
+			<li>
+			  <img src="src/img/img1.jpeg" />
+			</li>
+			<li>
+			  <img src="src/img/img2.jpeg" />
+			</li>
+			<li>
+			  <img src="src/img/img3.jpg" />
+			</li>
+			<li>
+			  <img src="src/img/img4.jpeg" />
+			</li>
+			<li>
+			  <img src="src/img/img5.jpeg" />
+			</li>
+	  </ul>
+
+
+	  <p>Photos by <a href="https://www.pexels.com/photo/long-exposure-photography-white-dome-building-interior-911758/">gdtography</a>, <a href="https://www.pexels.com/photo/aerial-photo-of-woman-wearing-white-and-blue-bikini-top-standing-on-swimming-pool-1243395/">antas singh</a>, <a href="https://www.pexels.com/photo/birds-on-air-near-snow-covered-mountain-surrounded-with-water-1398058/">Nathalie De Boever</a>, <a href="https://www.pexels.com/photo/statute-of-liberty-at-daytime-722014/">bruce mars</a>, <a href="https://www.pexels.com/photo/scenic-view-of-grand-canyon-1325862/">Ross Richardson</a> From <a href="https://www.pexels.com">PEXELS</a></p>
+	  <button id="prev">Prev</button>
+	  <button id="next">Next</button>
+	  <button id="play">Play</button>
+	  <button id="pause">Pause</button>
+
+	  <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+	</div>
+
+<script src="src/jquery-3.3.1.min.js"></script>
+<script src="dist/partialviewslider.min.js"></script>
+<script>
+$(document).ready(function(){
+	var partialView = $('#partial-view').partialViewSlider();
+
+	$('#prev').on('click', function(){
+		partialView.prev();
+	});
+	$('#next').on('click', function(){
+		partialView.next();
+	});
+	$('#play').on('click', function(){
+		partialView.play();
+	});
+	$('#pause').on('click', function(){
+		partialView.pause();
+	});
+});
+</script>
+</body>
+</html>
