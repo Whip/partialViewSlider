@@ -32,7 +32,13 @@
 			</li>
 	  </ul>
 
+
 	  <p>Photos by <a href="https://www.pexels.com/photo/long-exposure-photography-white-dome-building-interior-911758/">gdtography</a>, <a href="https://www.pexels.com/photo/aerial-photo-of-woman-wearing-white-and-blue-bikini-top-standing-on-swimming-pool-1243395/">antas singh</a>, <a href="https://www.pexels.com/photo/birds-on-air-near-snow-covered-mountain-surrounded-with-water-1398058/">Nathalie De Boever</a>, <a href="https://www.pexels.com/photo/statute-of-liberty-at-daytime-722014/">bruce mars</a>, <a href="https://www.pexels.com/photo/scenic-view-of-grand-canyon-1325862/">Ross Richardson</a> From <a href="https://www.pexels.com">PEXELS</a></p>
+	  <button id="prev">Prev</button>
+	  <button id="next">Next</button>
+	  <button id="play">Play</button>
+	  <button id="pause">Pause</button>
+
 	  <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
 	</div>
 
@@ -40,7 +46,20 @@
 <script src="js/partialviewslider.js"></script>
 <script>
 $(document).ready(function(){
-	$('#partial-view').partialViewSlider();
+	var partialView = $('#partial-view').partialViewSlider();
+
+	$('#prev').on('click', function(){
+		partialView.prev();
+	});
+	$('#next').on('click', function(){
+		partialView.next();
+	});
+	$('#play').on('click', function(){
+		partialView.play();
+	});
+	$('#pause').on('click', function(){
+		partialView.pause();
+	});
 });
 </script>
 </body>
