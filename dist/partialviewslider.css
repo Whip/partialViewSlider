@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+html{
+	font-size: 11px;
+	width: 100%;
+	overflow-x: hidden;
+}
+@media (min-width: 600px){
+	html{
+		font-size: 12px;
+	}
+}
+@media (min-width: 992px){
+	html{
+		font-size: 14px;
+	}
+}
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+img{
+	max-width: 100%;
+}
+i.material-icons{
+	vertical-align: sub;
+	font-size: 110%;
+}
+.container {
+	width: 95%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.partialViewSlider-outerwrapper{
+	position: relative;
+}
+.partialViewSlider-outerwrapper.partialViewSlider-outsideControls{
+	padding: 0 6%;
+}
+.partialViewSlider-wrapper{
+	overflow: hidden;
+	font-size: 0;
+	position: relative;
+}
+.partialViewSlider-outerwrapper ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	transition-property: transform;
+	transition-duration: 0ms;
+	transition-timing-function: ease-out;
+}
+.partialViewSlider-outerwrapper ul > li{
+	display: inline-block;
+	position: relative;
+	font-size: 1rem;
+	transition-property: all;
+	transition-duration: 0ms;
+	transition-timing-function: ease-out;
+}
+.partialViewSlider-wrapper.partialViewSlider-perspective ul > li{
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.4;
+}
+.partialViewSlider-wrapper.partialViewSlider-perspective ul > li.active{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+.partialViewSlider-wrapper ul > li > img{
+	width: 100%;
+	display: block;
+}
+.partialViewSlider-backdrop{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.partialViewSlider-backdrop.partialViewSlider-right{
+	right: 0;
+}
+
+.partialViewSlider-nav{
+	position: absolute;
+	top: 50%;
+	color: #FFF;
+	font-size: 3rem;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.partialViewSlider-prev{
+	left: 3%;
+}
+.partialViewSlider-next{
+	right: 3%;
+}
+.partialViewSlider-outsideControls .partialViewSlider-nav,
+.partialViewSlider-neighborControls .partialViewSlider-nav{
+	color: #CCC;
+}
+.partialViewSlider-outsideControls .partialViewSlider-prev{
+	left: 1%;
+}
+.partialViewSlider-outsideControls .partialViewSlider-next{
+	right: 1%;
+}
+.partialViewSlider-neighborControls .partialViewSlider-prev{
+	left: -5%;
+}
+.partialViewSlider-neighborControls .partialViewSlider-next{
+	right: -5%;
+}
