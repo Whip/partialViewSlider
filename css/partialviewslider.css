@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+html{
+	font-size: 11px;
+	width: 100%;
+	overflow-x: hidden;
+}
+@media (min-width: 600px){
+	html{
+		font-size: 12px;
+	}
+}
+@media (min-width: 992px){
+	html{
+		font-size: 14px;
+	}
+}
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+img{
+	max-width: 100%;
+}
+i.material-icons{
+	vertical-align: sub;
+	font-size: 110%;
+}
+.container {
+	width: 95%;
+	max-width: 1300px;
+}
+
+.partialViewSlider-outerwrapper{
+	position: relative;
+}
+.partialViewSlider-wrapper{
+	overflow: hidden;
+	font-size: 0;
+	position: relative;
+}
+.partialViewSlider-outerwrapper ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	transition-property: transform;
+	transition-duration: 400ms;
+	transition-timing-function: ease-out;
+}
+.partialViewSlider-outerwrapper ul > li{
+	display: inline-block;
+	position: relative;
+	font-size: 1rem;
+}
+.partialViewSlider-nav{
+	position: absolute;
+	top: 50%;
+	color: #FFF;
+	font-size: 3rem;
+	transform: translateY(-50%);
+}
+.partialViewSlider-wrapper ul > li > img{
+	width: 100%;
+	display: block;
+}
+.partialViewSlider-backdrop{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.partialViewSlider-backdrop.partialViewSlider-right{
+	right: 0;
+}
+.partialViewSlider-prev{
+	left: 3%;
+}
+.partialViewSlider-next{
+	right: 3%;
+}
