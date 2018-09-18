@@ -1,5 +1,6 @@
 /*
 PartialViewSLider: https://github.com/VeeK727/partialViewSlider
+Version: 0.1.1
 Author: Vipul Kapoor (@MrVipulKapoor)
 Licenced under: MIT License
 
@@ -27,18 +28,18 @@ SOFTWARE.
 ;(function ($, window, doucment, undefined) {
 	var pluginName = 'partialViewSlider',
     defaults = {
-    	auto: false,
-      delay: 4000,
+      width: 70,
       controls: true,
       controlsPosition: 'inside', //inside, outside, neighbors
-      prevHtml: '<i class="material-icons">chevron_left</i>',
-      nextHtml: '<i class="material-icons">chevron_right</i>',
-      width: 70,
-      transitionSpeed: 400,
       backdrop: true,
-      perspective: false,
+    	auto: true,
+      transitionSpeed: 400,
+      delay: 4000,
       pauseOnHover: true,
       keyboard: true,
+      perspective: false,
+      prevHtml: '<i class="material-icons">chevron_left</i>',
+      nextHtml: '<i class="material-icons">chevron_right</i>',
       onLoad: function() {},
       onSlideEnd : function() {}
     };
@@ -51,6 +52,77 @@ SOFTWARE.
     this._name = pluginName;
 
     this.init();
+  }
+
+  function calculateNumbers(self){
+  	var el = $(self.element);
+
+    self.slides = el.find('li');
+  	self.numElements = self.slides.length,
+  	self.numSlides = self.numElements-4,
+  	self.wrapperWidth = $(self.wrapper).width(),
+  	self.slideWidth = self.wrapperWidth*(self.options.width)/100,
+  	self.sideWidth = self.wrapperWidth*((100 - self.options.width)/2)/100;
+    el.width(self.numElements*self.slideWidth);
+    $(self.slides).width(self.slideWidth);
+
+    self.index = 0;
+    self.slideMovement = self.wrapperWidth*self.options.width/100;
+    self.firstMovement = self.currentPosition = -(self.slideWidth-self.sideWidth+self.slideWidth);
+    el.css({
+    	'-webkit-transform': 'translateX('+(self.firstMovement)+'px)',
+    	'transform': 'translateX('+(self.firstMovement)+'px)'
+    });
+    $(self.slides[2]).addClass('active');
+
+    el.siblings('.partialViewSlider-backdrop').css('width', self.sideWidth);
+  }
+
+  function moveSlider(self, direction){
+  	var el = $(self.element);
+
+  	if(direction == 'forward'){
+    	self.index++;
+    	self.currentPosition -= self.slideWidth;
+  	} else if(direction == 'backward'){
+    	self.index--;
+    	self.currentPosition += self.slideWidth;
+  	}
+  	$(self.slides[self.index+2]).addClass('active').siblings().removeClass('active');
+  	el.css({
+  		'-webkit-transform': 'translateX('+self.currentPosition+'px)',
+  		'transform': 'translateX('+self.currentPosition+'px)'
+  	});
+
+  	setTimeout(function() {
+    	if(self.index > self.numSlides-1){
+    		self.index = 0;
+    		self.currentPosition = self.firstMovement;
+    		var loop = true;
+    	} else if(self.index < 0){
+    		self.index = self.numSlides-1;
+    		self.currentPosition -= self.numSlides*self.slideWidth;
+    		var loop = true
+    	} else {
+    		var loop = false;
+    	}
+    	if(loop){
+    		$(self.slides).css('transition-duration', '0ms');
+    		$(self.slides[self.index+2]).addClass('active');
+    		el.css({
+    			'transition-duration': '0ms',
+    			'-webkit-transform': 'translateX('+self.currentPosition+'px)',
+    			'transform': 'translateX('+self.currentPosition+'px)'
+    		});
+    		setTimeout(function() {
+    			el.css('transition-duration', self.options.transitionSpeed+'ms');
+    			$(self.slides).css('transition-duration', self.options.transitionSpeed+'ms');
+
+    		}, 20);
+    	}
+
+  		self.options.onSlideEnd.call(self.element);
+  	}, self.options.transitionSpeed);
   }
 
   $.extend( Plugin.prototype, {
@@ -89,7 +161,7 @@ SOFTWARE.
 		    $(this.wrapper).append('<div class="partialViewSlider-backdrop partialViewSlider-right"></div>');
 		  }
 
-		  self.calculateNumbers();
+		  calculateNumbers(this);
 
 	    setTimeout(function() {
 	    	el.css('transition-duration', self.options.transitionSpeed+'ms');
@@ -98,7 +170,7 @@ SOFTWARE.
 
 	    if(this.options.auto){
 	    	self.looper = setInterval(function(){
-	    		self.moveSlider('forward');
+	    		moveSlider(self, 'forward');
 	    	}, this.options.delay);
 
 	    	if(this.options.pauseOnHover){
@@ -107,7 +179,7 @@ SOFTWARE.
 	    		});
 	    		$(self.wrapper).on('mouseleave', function(){
 	    			self.looper = setInterval(function(){
-			    		self.moveSlider('forward');
+			    		moveSlider(self, 'forward');
 			    	}, self.options.delay);
 	    		});
 	    	}
@@ -115,21 +187,21 @@ SOFTWARE.
 
 	    $(this.outerWrapper).on('click', '.partialViewSlider-next', function(e){
 	    	e.preventDefault();
-	    	self.moveSlider('forward');
+	    	moveSlider(self, 'forward');
 	    });
 
 	    $(this.outerWrapper).on('click', '.partialViewSlider-prev', function(e){
 	    	e.preventDefault();
-	    	self.moveSlider('backward');
+	    	moveSlider(self, 'backward');
 	    });
 
 	    if(this.options.keyboard){
 	    	$(document).on('keyup', function(e){
           if(!$(':focus').is('input, textarea')) {
             if (e.keyCode === 37) {
-              self.moveSlider('backward');
+              moveSlider(self, 'backward');
             } else if (e.keyCode === 39) {
-              self.moveSlider('forward');
+              moveSlider(self, 'forward');
             }
           }
         });
@@ -139,92 +211,61 @@ SOFTWARE.
 	    $(window).on('resize orientationchange', function(){
 	    	clearTimeout(resize);
 	    	resize = setTimeout(function() {
-	    		self.calculateNumbers();
+	    		calculateNumbers(self);
 	    	}, 500);
 	    });
 
+	    document.addEventListener('touchstart', handleTouchStart, false);
+			document.addEventListener('touchmove', handleTouchMove, false);
+
+			var xDown = null;
+			var yDown = null;
+
+			function getTouches(evt) {
+			  return evt.touches ||             // browser API
+			         evt.originalEvent.touches; // jQuery
+			}
+
+			function handleTouchStart(evt) {
+		    xDown = getTouches(evt)[0].clientX;
+		    yDown = getTouches(evt)[0].clientY;
+			};
+
+			function handleTouchMove(evt) {
+		    if(!xDown || !yDown){
+		      return;
+		    }
+
+		    var xUp = getTouches(evt)[0].clientX;
+		    var yUp = getTouches(evt)[0].clientY;
+		    var xDiff = xDown - xUp;
+		    var yDiff = yDown - yUp;
+
+		    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {
+	        if ( xDiff < 0 ) {
+	          moveSlider(self, 'backward');
+	        } else {
+	          moveSlider(self, 'forward');
+	        }
+		    }
+		    /* reset values */
+		    xDown = null;
+		    yDown = null;
+			};
+
 	    this.options.onLoad.call(el);
 	  },
-	  calculateNumbers: function(){
-	  	var el = $(this.element);
-
-	    this.slides = el.find('li');
-	  	this.numElements = this.slides.length,
-    	this.numSlides = this.numElements-4,
-    	this.wrapperWidth = $(this.wrapper).width(),
-    	this.slideWidth = this.wrapperWidth*(this.options.width)/100,
-    	this.sideWidth = this.wrapperWidth*((100 - this.options.width)/2)/100;
-	    el.width(this.numElements*this.slideWidth);
-	    $(this.slides).width(this.slideWidth);
-
-	    this.index = 0;
-	    this.slideMovement = this.wrapperWidth*this.options.width/100;
-	    this.firstMovement = this.currentPosition = -(this.slideWidth-this.sideWidth+this.slideWidth);
-	    el.css({
-	    	'-webkit-transform': 'translateX('+(this.firstMovement)+'px)',
-	    	'transform': 'translateX('+(this.firstMovement)+'px)'
-	    });
-	    $(this.slides[2]).addClass('active');
-
-	    el.siblings('.partialViewSlider-backdrop').css('width', this.sideWidth);
-	  },
-	  moveSlider: function(direction){
-	  	var self = this;
-	  	var el = $(this.element);
-
-    	if(direction == 'forward'){
-	    	this.index++;
-	    	this.currentPosition -= this.slideWidth;
-    	} else if(direction == 'backward'){
-	    	this.index--;
-	    	this.currentPosition += this.slideWidth;
-    	}
-    	$(this.slides[this.index+2]).addClass('active').siblings().removeClass('active');
-    	el.css({
-    		'-webkit-transform': 'translateX('+this.currentPosition+'px)',
-    		'transform': 'translateX('+this.currentPosition+'px)'
-    	});
-
-    	setTimeout(function() {
-	    	if(self.index > self.numSlides-1){
-	    		self.index = 0;
-	    		self.currentPosition = self.firstMovement;
-	    		var loop = true;
-	    	} else if(self.index < 0){
-	    		self.index = self.numSlides-1;
-	    		self.currentPosition -= self.numSlides*self.slideWidth;
-	    		var loop = true
-	    	} else {
-	    		var loop = false;
-	    	}
-	    	if(loop){
-	    		$(self.slides).css('transition-duration', '0ms');
-	    		$(self.slides[self.index+2]).addClass('active');
-	    		el.css({
-	    			'transition-duration': '0ms',
-	    			'-webkit-transform': 'translateX('+self.currentPosition+'px)',
-	    			'transform': 'translateX('+self.currentPosition+'px)'
-	    		});
-	    		setTimeout(function() {
-	    			el.css('transition-duration', self.options.transitionSpeed+'ms');
-	    			$(self.slides).css('transition-duration', self.options.transitionSpeed+'ms');
-
-	    		}, 20);
-	    	}
-
-    		self.options.onSlideEnd.call(self.element);
-    	}, this.options.transitionSpeed);
-	  },
 	  prev: function(){
-	  	this.moveSlider('backward');
+	  	moveSlider(this, 'backward');
 	  },
 	  next: function(){
-	  	this.moveSlider('forward');
+	  	moveSlider(this, 'forward');
 	  },
 	  play: function(){
 	  	var self = this;
+	  	clearInterval(this.looper);
 	  	this.looper = setInterval(function(){
-    		self.moveSlider('forward');
+    		moveSlider(self, 'forward');
     	}, self.options.delay);
 	  },
 	  pause: function(){
