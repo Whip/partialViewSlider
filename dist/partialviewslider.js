@@ -1,6 +1,6 @@
 /*
 PartialViewSLider: https://github.com/VeeK727/partialViewSlider
-Version: 0.1.1
+Version: 0.2
 Author: Vipul Kapoor (@MrVipulKapoor)
 Licenced under: MIT License
 
