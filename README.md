@@ -47,6 +47,7 @@ $(document).ready(function(){
 | controls          | boolean | true    | Whether to display arrow controls |
 | controlsPosition  | string  | inside  | inside: display arrows over the slides; outside: contract slides to make room for arrows on the outside; neighbors: push arrows out of the container and off the slides |
 | backdrop          | boolean | true    | Whether to show dark bands over adjacent slides |
+| dots              | boolean | false   | Whether dots navigation is displayed at the bottom  |
 | auto              | boolean | true    | Whether the slides move automatically at set intervals  |
 | transitionSpeed   | int     | 400     | time (ms) it takes to transition to another slide |
 | delay             | int     | 4000    | time (ms) between a slide is transitioned |
@@ -69,6 +70,7 @@ $(document).ready(function(){
 | next      | Go to next slide      |
 | play      | Start autoplay        |
 | pause     | Stop autoplay         |
+| goToSlide | Navigate to a particular slide. Pass the slide number in the Methods  |
 
 Example:
 ```
