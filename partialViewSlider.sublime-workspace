@@ -1,0 +1,1951 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wra",
+				"wrapperWidth"
+			],
+			[
+				"wrapp",
+				"wrapperWidth"
+			],
+			[
+				"dots",
+				"dotsHtml"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"slde",
+				"slider1"
+			],
+			[
+				"navia",
+				"navigate_before"
+			],
+			[
+				"tex",
+				"text-light-orange"
+			],
+			[
+				"text",
+				"text-light-orange"
+			],
+			[
+				"text-ligh",
+				"text-light-orange"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"act",
+				"activityDate"
+			],
+			[
+				"part",
+				"partialView"
+			],
+			[
+				"side",
+				"slideMovement"
+			],
+			[
+				"box-s",
+				"box-sizing\tproperty"
+			],
+			[
+				"plugin",
+				"pluginName"
+			],
+			[
+				"par",
+				"partialViewSlider"
+			],
+			[
+				"key",
+				"keyboard"
+			],
+			[
+				"trna",
+				"transform\tproperty"
+			],
+			[
+				"ease",
+				"ease-out\ttransition-timing-function"
+			],
+			[
+				"trans",
+				"transition-timing-function\tproperty"
+			],
+			[
+				"trnas",
+				"transition\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"book",
+				"book-room"
+			],
+			[
+				"hide",
+				"hide-on-med-and-up"
+			],
+			[
+				"hiden",
+				"hide-on-med-and-up"
+			],
+			[
+				"partial",
+				"partialViewSlider"
+			],
+			[
+				"transit",
+				"transition-duration"
+			],
+			[
+				"fire",
+				"firstMovement"
+			],
+			[
+				"firs",
+				"firstMovement"
+			],
+			[
+				"partialvie",
+				"partialViewSlider-next"
+			],
+			[
+				"wrappe",
+				"wrapperWidth"
+			],
+			[
+				"non",
+				"none\tlist-style"
+			],
+			[
+				"input",
+				"input-field"
+			],
+			[
+				"wav",
+				"waves-light"
+			],
+			[
+				"text-li",
+				"text-light-orange"
+			],
+			[
+				"text-light",
+				"text-light-blue"
+			],
+			[
+				"inp",
+				"input-field"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"5e",
+				"5e56a4"
+			],
+			[
+				"section",
+				"section-title"
+			],
+			[
+				"orang",
+				"text-orange"
+			],
+			[
+				"gues",
+				"guestSelector"
+			],
+			[
+				"guest",
+				"guest-selector"
+			],
+			[
+				"drop",
+				"dropdown-trigger"
+			],
+			[
+				"che",
+				"checkOut"
+			],
+			[
+				"checkIn",
+				"checkIn"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"F",
+				"FuturaExtraBlack"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"materi",
+				"material-icons"
+			],
+			[
+				"waves",
+				"waves-light"
+			],
+			[
+				"wave",
+				"waves-effect"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"disp",
+				"display\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"travel",
+				"travelbug-logo"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"lorem",
+				"lorem\tlorem"
+			],
+			[
+				"tras",
+				"translateY()\ttransform"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"bacgr",
+				"background\tproperty"
+			],
+			[
+				"mateir",
+				"material-icons"
+			],
+			[
+				"mater",
+				"material-icons"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"check",
+				"checkOutPicker"
+			],
+			[
+				"displa",
+				"display\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"chec",
+				"checkOutPicker"
+			],
+			[
+				"hotelS",
+				"hotelSearchCheckin"
+			],
+			[
+				"super",
+				"superCategoryName"
+			],
+			[
+				"categor",
+				"categorId"
+			],
+			[
+				"silver",
+				"silver_fine_weight"
+			],
+			[
+				"orderD",
+				"orderData"
+			],
+			[
+				"image",
+				"imagePath"
+			],
+			[
+				"bas64",
+				"base64_encode"
+			],
+			[
+				"invoice",
+				"invoiceHtml"
+			],
+			[
+				"labor",
+				"labor_type"
+			],
+			[
+				"searc",
+				"searchProducts"
+			],
+			[
+				"loadP",
+				"loadPlayerIdsQ"
+			],
+			[
+				"disl",
+				"display"
+			],
+			[
+				"plaer",
+				"players"
+			],
+			[
+				"player",
+				"player_id"
+			],
+			[
+				"loadC",
+				"loadCarts"
+			],
+			[
+				"num",
+				"numProductsInserted"
+			],
+			[
+				"html",
+				"html\thtml"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"save",
+				"savePermissions"
+			],
+			[
+				"admin",
+				"admin_profile"
+			],
+			[
+				"update",
+				"updateQuantitiesQ"
+			],
+			[
+				"upda",
+				"updateQuanitiesQ"
+			],
+			[
+				"get",
+				"getOrderQuantities"
+			],
+			[
+				"product",
+				"product_id"
+			],
+			[
+				"deleteA",
+				"deleteAttrsQ"
+			],
+			[
+				"delete",
+				"deleteBannerQ"
+			],
+			[
+				"attr",
+				"attr_value"
+			],
+			[
+				"load",
+				"loadProducts"
+			],
+			[
+				"product_att",
+				"product_attr_value"
+			],
+			[
+				"thumb",
+				"thumbnail"
+			],
+			[
+				"uniq",
+				"unique_multidim_array"
+			],
+			[
+				"png",
+				"pngImages"
+			],
+			[
+				"jpe",
+				"jpeg2Images"
+			],
+			[
+				"jpeg",
+				"jpegImages"
+			],
+			[
+				"saveNo",
+				"saveNotesQ"
+			],
+			[
+				"active",
+				"activeUsers"
+			],
+			[
+				"dele",
+				"deleteTo"
+			],
+			[
+				"loadR",
+				"loadEnquiry"
+			],
+			[
+				"loadE",
+				"loadEnquiryQ"
+			],
+			[
+				"cance",
+				"cancel_order"
+			],
+			[
+				"loadA",
+				"loadAdmin"
+			],
+			[
+				"notif",
+				"notifiMsg"
+			],
+			[
+				"deleteP",
+				"deleteProductsQ"
+			],
+			[
+				"card",
+				"card-title"
+			],
+			[
+				"insertP",
+				"insertProduct"
+			],
+			[
+				"inset",
+				"insertAttributeQ"
+			],
+			[
+				"prou",
+				"product"
+			],
+			[
+				"getLas",
+				"getLastIdQ"
+			],
+			[
+				"bind_param",
+				"mysqli_bind_param"
+			],
+			[
+				"inser",
+				"insertProduct"
+			],
+			[
+				"insertPro",
+				"insertProductQ"
+			],
+			[
+				"fget",
+				"fgetcsv"
+			],
+			[
+				"tmp",
+				"tmp_name"
+			],
+			[
+				"csv",
+				"csv-file"
+			],
+			[
+				"loadPr",
+				"loadProdAttributesQ"
+			],
+			[
+				"att",
+				"attributes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "example.html",
+			"settings":
+			{
+				"buffer_size": 2781,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dist/partialviewslider.css",
+			"settings":
+			{
+				"buffer_size": 2319,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: fixedontop"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: con",
+				"Snippet: dbconnect"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"ctags -R -f .tags",
+			"\\E\\OneDrive\\Documents\\Projects\\Trvme\\Website\\admin\\about.php",
+			"cd c/",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Documents/Projects/PartialViewSlider",
+		"/D/Documents/Projects/PartialViewSlider/dist"
+	],
+	"file_history":
+	[
+		"/D/Documents/Projects/PartialViewSlider/dist/partialviewslider.js",
+		"/D/Documents/Projects/PartialViewSlider/dist/partialviewslider.min.js",
+		"/D/Documents/Projects/PartialViewSlider/dist/partialviewslider.min.css",
+		"/D/Documents/Projects/Yash Ornaments/Website/admin/app-api/products.php",
+		"/D/Documents/Projects/PartialViewSlider/README.md",
+		"/D/Documents/Projects/Travel Bug/Website/inc/head.php",
+		"/D/Documents/Projects/Travel Bug/Website/js/script.js",
+		"/D/Documents/Projects/Travel Bug/Website/css/style.css",
+		"/D/Documents/Projects/Travel Bug/Website/activity-pass.php",
+		"/D/Documents/Projects/Travel Bug/Website/index.php",
+		"/D/Documents/Projects/Travel Bug/Website/accommodation-product.php",
+		"/D/Documents/Projects/Travel Bug/Website/activity-results.php",
+		"/D/Documents/Projects/Travel Bug/Website/accommodation-results.php",
+		"/D/Documents/Projects/Travel Bug/Website/inc/footer.php",
+		"/D/Documents/Projects/PartialViewSlider/dist/partialviewslider.css",
+		"/D/Documents/Projects/PartialViewSlider/example.html",
+		"/D/Documents/Projects/PartialViewSlider/LICENSE",
+		"/C/Users/VIPUL/AppData/Local/Temp/scp24289/public_html/slider/example.html",
+		"/C/Users/VIPUL/AppData/Local/Temp/scp22282/public_html/slider/css/partialviewslider.css",
+		"/D/Documents/Projects/PartialViewSlider/js/partialviewslider.js",
+		"/D/Documents/Projects/PartialViewSlider/css/partialviewslider.css",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.561/lightslider.js",
+		"/C/Users/VIPUL/AppData/Local/Temp/scp52085/public_html/slider/css/partialviewslider.css",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.998/wodry.js",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.942/nouislider.js",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.501/jquery.nanogallery2.core.js",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.835/aos.js",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.202/alertify.js",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.587/lightslider.js",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.135/materialize.js",
+		"/D/Documents/Projects/Travel Bug/Website/js/partialviewslider.js",
+		"/D/Documents/Projects/Travel Bug/Website/css/partialviewslider.css",
+		"/D/Downloads/Compressed/with-jquery.html",
+		"/C/Users/VIPUL/AppData/Local/Temp/Rar$DIa0.252/lightslider.js",
+		"/D/Documents/Projects/ScentGod/Website/accommodation-results.php",
+		"/D/Documents/Projects/Travel Bug/Website/inc/navigation.php",
+		"/D/Documents/Projects/Standard HTML Files/css/materialize.min.css",
+		"/D/Documents/Projects/Standard HTML Files/js/materialize.min.js",
+		"/E/Documents/Projects/Travel Bug/Website/css/hover.css",
+		"/C/Users/vipul/AppData/Local/Temp/Rar$DIa0.151/lightslider.min.js",
+		"/C/Users/vipul/AppData/Roaming/Sublime Text 3/Packages/User/css.sublime-snippet",
+		"/E/Documents/Projects/Standard HTML Files/css/materialize.min.css",
+		"/E/Documents/Projects/Travel Bug/Website/js/materialize.min.js",
+		"/E/Documents/Projects/Travel Bug/Website/css/materialize.min.css",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/order-detail.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-admin.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/admins.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/notifications.php",
+		"/E/Documents/Projects/Yash Ornaments/Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+		"/E/Documents/Projects/Yash Ornaments/Android/app/src/main/AndroidManifest.xml",
+		"/E/Documents/Projects/Yash Ornaments/Android/app/src/main/res/values/strings.xml",
+		"/E/Documents/Projects/Yash Ornaments/Android/app/src/main/res/values/ic_launcher_background.xml",
+		"/E/Documents/Projects/Yash Ornaments/Android/app/src/main/res/values/styles.xml",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/products.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/ajax-load-orders.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/app-query.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/creden.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp02044/public_html/yash-ornaments/includes/creden.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/invoice.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-orders.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/css/custom.css",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/functions.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/ajax-load-products.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp13315/public_html/admin/includes/config.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/config.php",
+		"/E/Downloads/YOD-178 (2).pdf",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/js/custom.js",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/error.log",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/app-yash/autocomplete.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-user.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/navigation.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp41218/public_html/yash-ornaments/includes/creden.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp53071/public_html/yash-ornaments/includes/config.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-promocodes.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-permission.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/scripts.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/plugins/materialize/js/materialize.min.js",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/plugins/materialize/js/materialize.js",
+		"/C/Users/Vipul K/AppData/Local/Temp/Rar$DIa0.316/materialize.js",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/plugins/materialize/css/materialize.min.css",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-banner.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/sign-in.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/index.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/delete-images.php",
+		"/E/Documents/Projects/EuroKids/Green Park/Landing Page/index.html",
+		"/E/Documents/Projects/EuroKids/Green Park/Website/index.html",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp53861/public_html/admin/delete-images.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp01481/home/iflamfse/public_html/flamecom.in/contact-us.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/.gitignore",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp06593/public_html/admin/includes/invoice.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp33919/public_html/admin/error.log",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp32667/public_html/admin/includes/config.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/admin-profile.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/app-yash/app-query.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-categories.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-design.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/load-locations.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/profile.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/user-profile.php",
+		"/E/Downloads/yash.sql",
+		"/E/Downloads/locations-14052018-123219.sql",
+		"/E/Downloads/locations-14052018-123041.sql",
+		"/E/Downloads/locations-14052018-120246.sql",
+		"/E/Downloads/GOLD 240 OKCSV.csv",
+		"/E/Documents/Projects/ScentGod/Website/css/style.css",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/app-yash/multi-query.php",
+		"/E/Downloads/APRIL APP 2235 CSV1.csv",
+		"/C/Users/Vipul K/Desktop/index.html",
+		"/E/OneDrive/0-My Resources/Plugins/Linode.txt",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/add-attribute.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-attributes.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-product.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/.gitignore",
+		"/C/Users/Vipul K/AppData/Local/Packages/Microsoft.SkypeApp_kzf8qxf38zg5c/LocalState/Downloads/index.html",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/app-yash/product-images.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/app-yash/app-login.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp01196/public_html/yash-ornaments/error.log",
+		"/E/Downloads/for import.csv",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/enquiry.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/manage-enquiry.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/settings.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp33299/public_html/yash-ornaments/includes/functions.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp33722/public_html/yash-ornaments/includes/config.php",
+		"/C/Users/Vipul K/AppData/Local/Temp/scp30803/public_html/yash-ornaments/includes/creden.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/app-yash/forgot-password.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/forgot-password.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/forgot-password.php",
+		"/E/Documents/Projects/Yash Ornaments/Website/admin/includes/autocomplete.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+			"*.php,E:\\Documents\\Projects\\Yash Ornaments\\Website\\",
+			"*.php,*.js,E:\\Documents\\Projects\\Yash Ornaments\\Website\\",
+			"*.php,E:\\Documents\\Projects\\Yash Ornaments\\Website\\",
+			"*.php,*.jsE:\\Documents\\Projects\\Yash Ornaments\\Website\\",
+			"*.php,E:\\Documents\\Projects\\Yash Ornaments\\Website\\",
+			"*.php,E:\\Documents\\Projects\\Sumanya Travels\\Website",
+			"*.php,E:\\Documents\\Projects\\Sumanya Travels\\Website\\admin",
+			"*.php,*.html,*.css,*.js,E:\\Documents\\Projects\\Sumanya Travels\\Website",
+			"*.php,*.html,E:\\Documents\\Projects\\Sumanya Travels\\Website",
+			"*.php,*.html,*.htm,E:\\OneDrive\\Documents\\Projects\\Coolpad\\Docs\\coolpad-india-live",
+			"*.php,*.html,*.htm",
+			"E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\,*.php",
+			"E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\admin\\,*.php",
+			"E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\forums,*.php",
+			"E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\,*.php",
+			"E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\forums\\",
+			"*.php,E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\admin",
+			"*.html,*.php,*.js,E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\admin",
+			"*.html,*.php,*.js,E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\",
+			"*.html,*.php,*.js,E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\forums\\",
+			"*.html,*.php,E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\forums\\",
+			"*.html,*.php,E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\forums",
+			"*.html,*.php,E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website",
+			"*.html,E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website",
+			"E:\\OneDrive\\Documents\\Projects\\Pundit Raghunath Prasad\\Website,*.html",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-161014\\,-*.css,-*.js",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-161014\\",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-161014\\,*.xml",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-161014\\",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-160919\\app\\code\\core\\",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-160919\\app\\code\\cor",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-160919\\app\\code\\community\\",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-160919\\app\\code\\local\\",
+			"E:\\OneDrive\\Documents\\Projects\\Taprika\\Backups\\taprika-bak-160919",
+			"*.php,*.html,E:\\OneDrive\\Documents\\Projects\\Monster Media Services\\Website\\admin",
+			"*.php,*.html,E:\\OneDrive\\Documents\\Projects\\Monster Media Services\\Website",
+			"*.php,*.html,E:\\OneDrive\\Documents\\Projects\\Big Savings Guide\\Website",
+			"E:\\OneDrive\\Documents\\Projects\\BWD\\Website\\Main - New\\Develoment,*.php,*.html",
+			"E:\\OneDrive\\Documents\\Projects\\BWD\\Website\\Main - New\\Develoment",
+			"",
+			"*.html,*.php,E:\\Files\\xampp\\htdocs\\bsg\\Resources\\bsg-160705",
+			"*.html,*.php",
+			"*.html,*.php,E:\\OneDrive\\0-My Resources\\Templates\\illdy.1.0.25\\illdy",
+			"*.html,*.php,E:\\Downloads\\Compressed\\bak-160802",
+			"*.html,*.php,E:\\OneDrive\\0-My Resources\\Templates\\Admin LTE 2.3\\AdminLTE-2.3.0",
+			"*.html,*.php,E:\\Files\\xampp\\htdocs\\trvme\\admin",
+			"*.html,*.php,,E:\\OneDrive\\Documents\\Projects\\BWD\\Website\\Main - New\\Develoment",
+			"*.html,*.php,E:\\Files\\xampp\\htdocs\\trvme\\admin",
+			"E:\\OneDrive\\Documents\\Projects\\BWD\\Website\\Main - New\\Develoment,*.html,*.php",
+			"E:\\OneDrive\\Documents\\Projects\\BWD\\Website\\Main - New\\Develoment",
+			"E:\\OneDrive\\0-My Resources\\Templates\\illdy.1.0.25\\illdy",
+			"E:\\Files\\xampp\\htdocs\\trvme",
+			"",
+			"E:\\OneDrive\\Documents\\Projects\\BWD\\Website\\Main - New\\Develoment",
+			"E:\\Files\\xampp\\htdocs\\trvme\\admin",
+			"E:\\Downloads\\ToolTime\\Site",
+			"E:\\Files\\xampp\\htdocs\\bsg",
+			"E:\\Downloads\\Yaffa\\Site\\adminpanel\\",
+			"E:\\Downloads\\Yaffa\\Site\\",
+			"E:\\Downloads\\Yaffa\\Site\\adminpanel\\",
+			"E:\\Downloads\\Yaffa\\Site\\adminpanel\\tabs-org",
+			"E:\\Downloads\\Yaffa\\Site\\adminpanel\\tabs",
+			"E:\\Files\\xampp\\htdocs\\trvme, *.php",
+			"E:\\Files\\xampp\\htdocs\\trvme\\admin, *.php",
+			"E:\\Files\\xampp\\htdocs\\trvme\\admin",
+			"E:\\Downloads\\Compressed\\bak-160620.tar_3\\bak-160620",
+			"E:\\Files\\xampp\\htdocs\\trvme\\admin,*.php",
+			"E:\\OneDrive\\Documents\\Projects\\MK Saxena\\Website",
+			"",
+			"E:\\Files\\xampp\\htdocs\\trvme-admin,*.php",
+			"E:\\Downloads\\Yaffa\\Site"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"wrapperWidth",
+			"self",
+			"wrapper",
+			"slider1",
+			"h4",
+			"star",
+			"light-",
+			"properties",
+			"properties te",
+			"properties",
+			"accommodation-product",
+			"orange",
+			" text-orange",
+			"text-orange",
+			"orange",
+			"text-blue",
+			" class=\"text-blue\"",
+			"text-orange",
+			"ol s4 relative",
+			"col s8",
+			"<h4>",
+			"<div class=\"col s4 relative\">",
+			"<div class=\"col s8\">",
+			"<div class=\"col s8\">\n\t\t\t\t\t\t\t\t\t\t\t\t<h4>",
+			"<h4>Bay Plaza Hotel</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t<p",
+			"<h4>",
+			"dropd",
+			"Math.round(",
+			"Down",
+			".originalEvent",
+			"this.",
+			"plugin",
+			"this",
+			": function(",
+			"self.moveSlider",
+			"calcul",
+			"_",
+			"self",
+			",",
+			"img/",
+			"img",
+			"next",
+			" style=\"width:'+this.sideWidth+'px\"",
+			"wrapper",
+			"outerWrapper",
+			"wrapper",
+			"next",
+			"setting",
+			"this",
+			"$(this.element)",
+			"this",
+			"settings.",
+			"settings",
+			"index",
+			"this",
+			"el.moveSlider",
+			"this.moveSlider",
+			"moveSlider",
+			"var ",
+			"this",
+			"id",
+			"var ",
+			"progressbar",
+			"settings",
+			"artialViewSlider",
+			"moveSlider",
+			"this.",
+			"settings.",
+			"el.",
+			"goToPrevSlide",
+			"keyPress",
+			"1%",
+			"outsideControls",
+			"numElements",
+			"partialViewSlider",
+			"properties/slider1",
+			"selector",
+			"> span >",
+			"circle",
+			"remove_circle",
+			"carouse",
+			"prev",
+			"https://lorempixel.c",
+			"onOpenStart",
+			"onOpenS",
+			"data-modal",
+			"modal",
+			"</a>\n\t\t\t\t\t</li>",
+			"</a>",
+			"<a href=\"#book-room\" class=\"item modal-trigger\">",
+			"slider3",
+			"lights",
+			"<div class=\"item\">",
+			"<div class=\"col s12 l6 xl4\">",
+			"<div class=\"item\">",
+			"m4",
+			"autofocus",
+			"\u0003",
+			"property1",
+			"prev",
+			"small",
+			"h4",
+			"slider",
+			".clone()",
+			"sliderWidth",
+			"ul",
+			"4",
+			"data-u=\"image\" ",
+			"div",
+			"img/",
+			"h3",
+			"star",
+			"s12 m6",
+			"equalize",
+			"h3",
+			"h2",
+			"material-icons",
+			"html",
+			"6ccce0",
+			"4",
+			"med-and-down",
+			"12 m",
+			"uest-selector",
+			"\"guest-selector",
+			"guest-selector",
+			"12 m",
+			"44px",
+			"<div class=\"col s12 m4\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"beige",
+			"manage-admins.php",
+			"admins.php",
+			"admin-profiles.php",
+			"flash-messages.php",
+			"currencies.php",
+			"booking-detail.php",
+			"tour-details.php",
+			"tours.php",
+			"\"",
+			"4000",
+			"CoolPlay 6",
+			"em",
+			"https://www.youtube.com/channel/UCN0ecGgun6zI4bfxXfuPhfg/feed",
+			"100vh",
+			"tutors",
+			"http://eglobalexperts.com",
+			"/home/eglobalexperts/public_html/",
+			"http://www.eglobalexperts.com",
+			"$now",
+			"<div class=\"no-results\">No more results to display</div>",
+			"GDN_ActivityType",
+			"GDN_UserRole",
+			"GDN_UserPoints",
+			"GDN_UserMeta",
+			"GDN_UserMergeItem",
+			"GDN_UserMerge",
+			"GDN_UserDiscussion",
+			"GDN_UserConversation",
+			"GDN_UserComment",
+			"GDN_UserCategory",
+			"GDN_UserAuthenticationToken",
+			"GDN_UserAuthenticationProvider",
+			"GDN_UserAuthenticationnOnce",
+			"GDN_UserAuthentication",
+			"GDN_User",
+			"GDN_ThanksLog",
+			"GDN_TagDiscussion",
+			"GDN_Tag",
+			"GDN_Spammer",
+			"GDN_Session",
+			"GDN_Role",
+			"GDN_Regarding",
+			"GDN_Reaction",
+			"GDN_Rank",
+			"GDN_Permission",
+			"GDN_Message",
+			"GDN_Media",
+			"GDN_Log",
+			"GDN_Invitation",
+			"GDN_Draft",
+			"GDN_Discussion",
+			"GDN_ConversationMessage",
+			"GDN_Conversation",
+			"GDN_Comment",
+			"GDN_Category",
+			"GDN_Ban",
+			"GDN_BadgeAward",
+			"GDN_Badge",
+			"GDN_Attachment",
+			"GDN_AnalyticsLocal",
+			"GDN_ActivityComment",
+			"GDN_Activity",
+			"GDN_Action",
+			"#298f9a",
+			"#ffcd2a",
+			"<a class=\"right modal-trigger\" href=\"#signin\">",
+			"",
+			"info@punditraghunathprasad.org",
+			"<li><a href=\"manage-leadership.html\"><i class=\"fa fa-circle-o\"></i> Leadership</a></li>",
+			"<li><a href=\"manage-about.html\"><i class=\"fa fa-circle-o\"></i> Static Content</a></li>\n            <li><a href=\"manage-leadership.html\"><i class=\"fa fa-circle-o\"> Leadership</i></a></li>",
+			"",
+			"manage-property.html",
+			"<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap-datetimepicker.min.css\">",
+			"<script src=\"js/bootstrap-datetimepicker.min.js\"></script>",
+			"<a class=\"pull-right addToWishList\" title=\"Add to Wishlist\"><i class=\"fa fa-heart\"></i></a>",
+			"<i class=\"fa fa-gift\"></i><a href=\"\">Wishlist</a>\n\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i><a href=\"\">Cart</a>\n\t\t\t\t\t<i class=\"fa fa-user\"></i><a href=\"\">Login</a>/<a href=\"\">Register</a>\n\t\t\t\t<ul class=\"container\">",
+			"<div id=\"breadcrumbs\">\n\t\t\t\t<ul class=\"container\">",
+			"weblink.vaibhav",
+			"Web Design &amp; Development Company",
+			" ",
+			"waves-light",
+			"waves-red",
+			"<p><i class=\"fa fa-phone\"></i> +91-9910060808<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-11-45140808</p>",
+			"<p><i class=\"fa fa-phone\"></i> +91-9910060808, +91-11-45140808</p>",
+			"<a href=\"services.html\">Services</a>",
+			"services.html",
+			" ",
+			"",
+			"''",
+			",",
+			"':'",
+			"'Y_'",
+			"$requestUrl",
+			"$urlGabor",
+			"'\" width=\"1px\" height=\"1px\" />'",
+			"'<img src=\"'",
+			"$curl_close",
+			"$curl_exec",
+			"$curl_setopt",
+			"'close'",
+			"'_'",
+			"'_exec'",
+			"'_setopt'",
+			"$curl_init_exectd",
+			"'1'",
+			"'allow_url_fopen'",
+			"$curl_init",
+			"'_init'",
+			"$curl",
+			"'curl'",
+			"'w'",
+			"'192.168.'",
+			"'10.'",
+			"'127.'",
+			"$host",
+			"$uploadUrl",
+			"$tmp",
+			"$version",
+			"'&v='",
+			"'&t=php&p='",
+			"'/pg.php?u='",
+			"$url",
+			"$host",
+			"$urlArray",
+			"'://'",
+			"'http'",
+			"'ok'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "example.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2300,
+								2300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dist/partialviewslider.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1200.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "partialViewSlider.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"hea",
+				"inc\\head.php"
+			],
+			[
+				"foo",
+				"inc\\footer.php"
+			],
+			[
+				"foor",
+				"inc\\footer.php"
+			],
+			[
+				"head",
+				"inc\\head.php"
+			],
+			[
+				"foot",
+				"inc\\footer.php"
+			],
+			[
+				"hoe",
+				"css\\hover.css"
+			],
+			[
+				"sc",
+				"js\\script.js"
+			],
+			[
+				"order",
+				"admin\\order-detail.php"
+			],
+			[
+				"notif",
+				"admin\\notifications.php"
+			],
+			[
+				"ad",
+				"admin\\admins.php"
+			],
+			[
+				"adm",
+				"admin\\admins.php"
+			],
+			[
+				"manage-ad",
+				"admin\\manage-admin.php"
+			],
+			[
+				"cre",
+				"admin\\includes\\creden.php"
+			],
+			[
+				"app",
+				"admin\\app-query.php"
+			],
+			[
+				"",
+				"admin\\products.php"
+			],
+			[
+				"cred",
+				"admin\\includes\\creden.php"
+			],
+			[
+				"products",
+				"admin\\products.php"
+			],
+			[
+				"inv",
+				"admin\\includes\\invoice.php"
+			],
+			[
+				"order-d",
+				"admin\\order-detail.php"
+			],
+			[
+				"oad-or",
+				"admin\\includes\\ajax-load-orders.php"
+			],
+			[
+				"conf",
+				"admin\\includes\\config.php"
+			],
+			[
+				"cust",
+				"admin\\css\\custom.css"
+			],
+			[
+				"func",
+				"admin\\includes\\functions.php"
+			],
+			[
+				"invo",
+				"admin\\includes\\invoice.php"
+			],
+			[
+				"product",
+				"admin\\products.php"
+			],
+			[
+				"prod",
+				"admin\\includes\\ajax-load-products.php"
+			],
+			[
+				"err",
+				"admin\\error.log"
+			],
+			[
+				"mange-use",
+				"admin\\manage-user.php"
+			],
+			[
+				"manage-pe",
+				"admin\\manage-permission.php"
+			],
+			[
+				"mater",
+				"admin\\plugins\\materialize\\js\\materialize.min.js"
+			],
+			[
+				"materi",
+				"admin\\plugins\\materialize\\css\\materialize.min.css"
+			],
+			[
+				"scrip",
+				"admin\\includes\\scripts.php"
+			],
+			[
+				"pro",
+				"admin\\products.php"
+			],
+			[
+				"romo",
+				"admin\\manage-promocodes.php"
+			],
+			[
+				"nav",
+				"admin\\includes\\navigation.php"
+			],
+			[
+				"sign",
+				"admin\\sign-in.php"
+			],
+			[
+				"mange-o",
+				"admin\\manage-orders.php"
+			],
+			[
+				"banne",
+				"admin\\manage-banner.php"
+			],
+			[
+				"ind",
+				"admin\\index.php"
+			],
+			[
+				"produ",
+				"admin\\products.php"
+			],
+			[
+				"ord",
+				"admin\\order-detail.php"
+			],
+			[
+				"mange-or",
+				"admin\\manage-orders.php"
+			],
+			[
+				"inde",
+				"admin\\index.php"
+			],
+			[
+				"load",
+				"admin\\includes\\ajax-load-orders.php"
+			],
+			[
+				"admin",
+				"admin\\admin-profile.php"
+			],
+			[
+				"manage-per",
+				"admin\\manage-permission.php"
+			],
+			[
+				"categor",
+				"admin\\manage-categories.php"
+			],
+			[
+				"confi",
+				"admin\\includes\\config.php"
+			],
+			[
+				"des",
+				"admin\\manage-design.php"
+			],
+			[
+				"scsr",
+				"admin\\includes\\scripts.php"
+			],
+			[
+				"load-",
+				"admin\\includes\\load-locations.php"
+			],
+			[
+				"cus",
+				"admin\\js\\custom.js"
+			],
+			[
+				"user",
+				"admin\\user-profile.php"
+			],
+			[
+				"o",
+				"admin\\order-detail.php"
+			],
+			[
+				"auto",
+				"admin\\app-yash\\autocomplete.php"
+			],
+			[
+				"manage-cat",
+				"admin\\manage-categories.php"
+			],
+			[
+				"fun",
+				"admin\\includes\\functions.php"
+			],
+			[
+				"add",
+				"admin\\add-attribute.php"
+			],
+			[
+				"produc",
+				"admin\\manage-product.php"
+			],
+			[
+				"aja",
+				"admin\\includes\\ajax-load-products.php"
+			],
+			[
+				"promo",
+				"admin\\manage-promocodes.php"
+			],
+			[
+				"in",
+				"admin\\index.php"
+			],
+			[
+				"sett",
+				"admin\\settings.php"
+			],
+			[
+				"orderd",
+				"admin\\order-detail.php"
+			],
+			[
+				"ajax",
+				"admin\\includes\\ajax-load-orders.php"
+			],
+			[
+				"enq",
+				"admin\\enquiry.php"
+			],
+			[
+				"forg",
+				"admin\\includes\\forgot-password.php"
+			],
+			[
+				"per",
+				"admin\\manage-permission.php"
+			],
+			[
+				"navi",
+				"admin\\includes\\navigation.php"
+			],
+			[
+				"roduc",
+				"admin\\products.php"
+			],
+			[
+				"scr",
+				"admin\\includes\\scripts.php"
+			],
+			[
+				"expo",
+				"admin\\includes\\export-products.php"
+			],
+			[
+				"origi",
+				"admin\\manage-origin.php"
+			],
+			[
+				"bran",
+				"admin\\manage-brand.php"
+			],
+			[
+				"orde",
+				"admin\\order-detail.php"
+			],
+			[
+				"custo",
+				"admin\\js\\custom.js"
+			],
+			[
+				"attr",
+				"admin\\manage-attributes.php"
+			],
+			[
+				"order-de",
+				"admin\\order-detail.php"
+			],
+			[
+				"erro",
+				"admin\\error.log"
+			],
+			[
+				"categ",
+				"admin\\manage-categories.php"
+			],
+			[
+				"manage-pro",
+				"admin\\manage-product.php"
+			],
+			[
+				"load-p",
+				"admin\\includes\\ajax-load-products.php"
+			],
+			[
+				"proud",
+				"admin\\manage-product.php"
+			],
+			[
+				"manage-ord",
+				"admin\\manage-orders.php"
+			],
+			[
+				"attribute-a",
+				"admin\\includes\\product-attribute-api.php"
+			],
+			[
+				"enqu",
+				"admin\\enquiry.php"
+			],
+			[
+				"user-pr",
+				"admin\\user-profile.php"
+			],
+			[
+				"puri",
+				"admin\\manage-purity.php"
+			],
+			[
+				"manage-pr",
+				"admin\\manage-product.php"
+			],
+			[
+				"user-p",
+				"admin\\user-profile.php"
+			],
+			[
+				"manage-ca",
+				"admin\\manage-categories.php"
+			],
+			[
+				"con",
+				"admin\\includes\\config.php"
+			],
+			[
+				"load-lo",
+				"admin\\includes\\load-locations.php"
+			],
+			[
+				"custom",
+				"admin\\js\\custom.js"
+			],
+			[
+				"script",
+				"admin\\includes\\scripts.php"
+			],
+			[
+				"product-att",
+				"admin\\includes\\product-attribute-api.php"
+			],
+			[
+				"prof",
+				"admin\\profile.php"
+			],
+			[
+				"datata",
+				"admin\\plugins\\datatables\\js\\jquery.dataTables.js"
+			],
+			[
+				"alpha",
+				"admin\\js\\alpha.min.js"
+			],
+			[
+				"cut",
+				"admin\\js\\custom.js"
+			],
+			[
+				"terms",
+				"admin\\manage-terms.php"
+			],
+			[
+				"manage-br",
+				"admin\\manage-brand.php"
+			],
+			[
+				"profi",
+				"admin\\member-profile.php"
+			],
+			[
+				"fu",
+				"admin\\includes\\functions.php"
+			],
+			[
+				"brochu",
+				"admin\\brochures.php"
+			],
+			[
+				"broch",
+				"brochures.php"
+			],
+			[
+				"flas",
+				"admin\\flash-messages.php"
+			],
+			[
+				"sub",
+				"admin\\manage-subscription.php"
+			],
+			[
+				"trans",
+				"admin\\transactions.php"
+			],
+			[
+				"edit-q",
+				"admin\\edit-queries.php"
+			],
+			[
+				"manage-que",
+				"admin\\manage-queries.php"
+			],
+			[
+				"navig",
+				"admin\\includes\\navigation.php"
+			],
+			[
+				"refun",
+				"admin\\manage-refund-policy.php"
+			],
+			[
+				"edit",
+				"admin\\edit-booking.php"
+			],
+			[
+				"booki",
+				"admin\\manage-booking.php"
+			],
+			[
+				"edit-to",
+				"admin\\edit-tours.php"
+			],
+			[
+				"manage-t",
+				"admin\\manage-tours.php"
+			],
+			[
+				"styl",
+				"admin\\plugins\\ckeditor\\styles.js"
+			],
+			[
+				"manage-des",
+				"admin\\manage-destinations.php"
+			],
+			[
+				"perm",
+				"admin\\manage-permission.php"
+			],
+			[
+				"agent",
+				"admin\\agent-detail.php"
+			],
+			[
+				"edit-us",
+				"admin\\edit-users.php"
+			],
+			[
+				"manage-us",
+				"admin\\manage-users.php"
+			],
+			[
+				"edit-te",
+				"admin\\edit-testimonials.php"
+			],
+			[
+				"testi",
+				"admin\\testimonial.php"
+			],
+			[
+				"term",
+				"admin\\terms.php"
+			],
+			[
+				"priva",
+				"admin\\privacy-policy.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 499.938461538,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Documents\\Projects\\Travel Bug\\Website\\travelbug.sublime-project"
+			],
+			[
+				"sce",
+				"E:\\Documents\\Projects\\ScentGod\\Website\\scentgod.sublime-project"
+			],
+			[
+				"y",
+				"E:\\Documents\\Projects\\Yash Ornaments\\Website\\yash.sublime-project"
+			],
+			[
+				"is",
+				"E:\\Documents\\Projects\\ISGPB\\Website\\isgpb.sublime-project"
+			],
+			[
+				"ifl",
+				"E:\\Documents\\Projects\\iFlame\\Website\\iflame.sublime-project"
+			],
+			[
+				"qui",
+				"E:\\Documents\\Projects\\QuickLaundree\\Website\\laundree.sublime-project"
+			],
+			[
+				"kat",
+				"E:\\Documents\\Projects\\Kattex\\Website\\kattex.sublime-project"
+			],
+			[
+				"ifla",
+				"E:\\Documents\\Projects\\iFlame\\Website\\iflame.sublime-project"
+			],
+			[
+				"sum",
+				"E:\\Documents\\Projects\\Sumanya Travels\\Website\\sumanya.sublime-project"
+			],
+			[
+				"coo",
+				"E:\\Documents\\Projects\\Coolpad\\Website\\coolpad.sublime-project"
+			],
+			[
+				"la",
+				"E:\\Documents\\Projects\\QuickLaundree\\Website\\laundree.sublime-project"
+			],
+			[
+				"tou",
+				"E:\\Documents\\Projects\\Tourpay\\Website\\tourpay.sublime-project"
+			],
+			[
+				"su",
+				"E:\\Documents\\Projects\\Sumanya Travels\\Website\\sumanya.sublime-project"
+			],
+			[
+				"ind",
+				"E:\\Documents\\Projects\\Indoglobe\\Website\\indoglobe.sublime-project"
+			],
+			[
+				"roh",
+				"E:\\Documents\\Projects\\RohtakVivah\\Website\\rohtakvivah.sublime-project"
+			],
+			[
+				"indo",
+				"E:\\Documents\\Projects\\Indoglobe\\Website\\indoglobe.sublime-project"
+			],
+			[
+				"ate",
+				"E:\\Documents\\Projects\\ATE\\ATE.sublime-workspace"
+			],
+			[
+				"suman",
+				"E:\\Documents\\Projects\\Sumanya Travels\\Website\\sumanya.sublime-project"
+			],
+			[
+				"gu",
+				"E:\\Documents\\Projects\\GurgaonVivah\\Website\\gurgaonvivah.sublime-project"
+			],
+			[
+				"q",
+				"E:\\Documents\\Projects\\QuickLaundree\\Website\\laundree.sublime-project"
+			],
+			[
+				"ro",
+				"E:\\Documents\\Projects\\RohtakVivah\\Website\\rohtakvivah.sublime-project"
+			],
+			[
+				"isg",
+				"E:\\Documents\\Projects\\ISGPB\\Website\\isgpb.sublime-project"
+			],
+			[
+				"e4",
+				"E:\\Documents\\Projects\\E4U\\Website\\e4u.sublime-project"
+			],
+			[
+				"ya",
+				"E:\\Documents\\Projects\\Young Association\\Website\\young.sublime-project"
+			],
+			[
+				"qu",
+				"E:\\Documents\\Projects\\Quick Laundree\\Website\\laundree.sublime-project"
+			],
+			[
+				"cool",
+				"E:\\OneDrive\\Documents\\Projects\\Coolpad\\Website\\coolpad.sublime-project"
+			],
+			[
+				"trvm",
+				"E:\\OneDrive\\Documents\\Projects\\Trvme\\Website\\admin\\trvme.sublime-project"
+			],
+			[
+				"pnj",
+				"E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\pnj.sublime-project"
+			],
+			[
+				"alic",
+				"E:\\OneDrive\\Documents\\Projects\\AliColours\\Backups\\backup\\alicolors.sublime-project"
+			],
+			[
+				"ali",
+				"E:\\OneDrive\\Documents\\Projects\\AliColours\\ps162\\alicolors.sublime-workspace"
+			],
+			[
+				"neel",
+				"E:\\OneDrive\\Documents\\Projects\\Neelkanth Retorts\\Website\\neelkanth.sublime-project"
+			],
+			[
+				"roht",
+				"E:\\OneDrive\\Documents\\Projects\\RohtakVivah\\Website\\rohtakvivah.sublime-project"
+			],
+			[
+				"p",
+				"E:\\OneDrive\\Documents\\Projects\\PNJ Hub\\Website\\pnj.sublime-project"
+			],
+			[
+				"fres",
+				"E:\\OneDrive\\Documents\\Projects\\Freshpets\\Website\\freshpets.sublime-project"
+			],
+			[
+				"tri",
+				"E:\\OneDrive\\Documents\\Projects\\Trip Lo India\\Website\\triplo.sublime-project"
+			],
+			[
+				"lad",
+				"E:\\OneDrive\\Documents\\Projects\\Ladato\\Website\\ladato.sublime-project"
+			],
+			[
+				"rohta",
+				"E:\\OneDrive\\Documents\\Projects\\RohtakVivah\\Website\\rohtakvivah.sublime-project"
+			],
+			[
+				"lau",
+				"E:\\OneDrive\\Documents\\Projects\\Quick Laundree\\Website\\laundree.sublime-project"
+			],
+			[
+				"e",
+				"E:\\OneDrive\\Documents\\Projects\\E4U\\Website\\e4u.sublime-project"
+			],
+			[
+				"qua",
+				"E:\\OneDrive\\Documents\\Projects\\Quantum Naturals\\Website\\quantum.sublime-project"
+			],
+			[
+				"quan",
+				"E:\\OneDrive\\Documents\\Projects\\Quantum Naturals\\Website\\quantum.sublime-project"
+			],
+			[
+				"soc",
+				"E:\\OneDrive\\Documents\\Projects\\Social Tempo\\Website\\social-tempo.sublime-project"
+			],
+			[
+				"fre",
+				"E:\\OneDrive\\Documents\\Projects\\Freshpets\\Website\\freshpets.sublime-project"
+			],
+			[
+				"icfa",
+				"E:\\OneDrive\\Documents\\Projects\\ICFA\\Website\\icfa.sublime-project"
+			],
+			[
+				"fore",
+				"E:\\OneDrive\\Documents\\Projects\\The Forest Chalet\\Website\\forest-chalet.sublime-project"
+			],
+			[
+				"cro",
+				"E:\\OneDrive\\Documents\\Projects\\CrossfitLifePerformance\\Website\\crossfit.sublime-project"
+			],
+			[
+				"a",
+				"E:\\OneDrive\\Documents\\Projects\\AliColours\\ps162\\alicolors.sublime-project"
+			],
+			[
+				"ov",
+				"E:\\OneDrive\\Documents\\Projects\\OviyaStudios\\Website\\oviya.sublime-project"
+			],
+			[
+				"bwd",
+				"E:\\OneDrive\\Documents\\Projects\\BWD\\Website\\bwd.sublime-project"
+			],
+			[
+				"ovi",
+				"E:\\OneDrive\\Documents\\Projects\\OviyaStudios\\Website\\oviya.sublime-project"
+			]
+		],
+		"width": 380.307692308
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 424.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -80,7 +80,17 @@
 <script src="dist/partialviewslider.js"></script>
 <script>
 $(document).ready(function(){
-	var partialView = $('#partial-view').partialViewSlider();
+	var partialView = $('#partial-view').partialViewSlider({
+		backdrop: false,
+		perspective: true,
+		width: 70,
+		items: {
+			"0": 1,
+			"600": 2,
+			"992": 3
+		},
+		auto: false
+	});
 
 	$('#prev').on('click', function(){
 		partialView.prev();
