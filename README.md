@@ -1,5 +1,5 @@
 # partialViewSlider
-An extremely lightweight (8kb minified) jQuery slider that shows part of adjacent slides to the left and right.
+An extremely lightweight (9kb minified) jQuery slider that shows part of adjacent slides to the left and right.
 
 ## Features
 * Lightweight and Fast
@@ -7,13 +7,14 @@ An extremely lightweight (8kb minified) jQuery slider that shows part of adjacen
 * Touch ready
 * Multiple modes (Partial View, Perspective, Regular)
 * Adjustable center and side widths
+* [NEW] Added option to display multiple items
 
 ## Getting Started
 Include the required files
 ```
-<link rel="stylesheet" type="text/css" href="dist/partialviewslider.min.css">
+<link rel="stylesheet" type="text/css" href="dist/partialViewSlider.min.css">
 <script src="src/jquery-3.3.1.min.js"></script>
-<script src="dist/partialviewslider.min.js"></script>
+<script src="dist/partialViewSlider.min.js"></script>
 ```
 Add some html
 ```
@@ -54,6 +55,7 @@ $(document).ready(function(){
 | pauseOnHover      | boolean | true    | Whether autoplay can be paused when slider is hovered |
 | keyboard          | boolean | true    | Whether slider can be controled with keyboard left/right arrow keys |
 | perspective       | boolean | false   | Enable this to make adjoining slides smaller giving a perspective carousel look |
+| items             | object  | {"0": 1}| Show multiple items at once. This is an object of resolutions and number of items above that resolution. For instance: `{"0": 1, "600": 2, "992": 3}` will show one item upto 600px, 2 items above 600px and and 3 items at 992px and above. Partial view is disabled if number of items are more than 1  |
 | prevHtml          | string  | \<i class="material-icons">chevron_left\</i>  | Html for previous slide button  |
 | nextHtml          | string  | \<i class="material-icons">chevron_right\</i> | Html for next slide button  |
 
