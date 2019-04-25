@@ -1,0 +1,9 @@
+Backups/
+Resources/
+vid/
+video/
+admin/
+cache/
+*.sublime-workspace
+thumbs.db
+sh.exe.stackdump
