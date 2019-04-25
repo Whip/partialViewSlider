@@ -85,7 +85,7 @@ SOFTWARE.
 
 		self.firstMovement = self.currentPosition = -(self.slideWidth*self.numClones-self.sideWidth);
 
-		console.log(self.numSlides, self.numClones, self.numSlidesDisplayed, self.wrapperWidth, self.slideWidth, self.firstMovement);
+		// console.log(self.numSlides, self.numClones, self.numSlidesDisplayed, self.wrapperWidth, self.slideWidth, self.firstMovement);
 	}
 
 	function firstMovement(self, recalculate = 0){
@@ -97,7 +97,7 @@ SOFTWARE.
 		el.append(first_slide.clone().addClass('partialViewSlider-clone'));
 
 		el.width((self.numSlides+self.numClones*2)*self.slideWidth);
-		el.find('li').width(self.slideWidth);
+		el.find('li').outerWidth(self.slideWidth);
 		el.siblings('.partialViewSlider-backdrop').css('width', self.sideWidth);
 		if(self.numSlidesDisplayed == 1 && self.options.perspective){
 			$(self.wrapper).addClass('partialViewSlider-perspective');
@@ -150,16 +150,17 @@ SOFTWARE.
 
 		//reset the order of items for next loop
 		setTimeout(function() {
+			let loop;
 			if(self.index > self.numSlides-1){
 				self.index = 0;
 				self.currentPosition = self.firstMovement;
-				var loop = true;
+				loop = true;
 			} else if(self.index < 0){
 				self.index = self.numSlides-1;
 				self.currentPosition -= self.numSlides*self.slideWidth;
-				var loop = true
+				loop = true
 			} else {
-				var loop = false;
+				loop = false;
 			}
 			if(loop){
 				$(self.slides).css('transition-duration', '0ms');
@@ -178,7 +179,6 @@ SOFTWARE.
 				}, 20);
 			}
 
-			isMoving = false;
 			self.options.onSlideEnd.call(self.element);
 		}, self.options.transitionSpeed);
 	}
@@ -278,16 +278,16 @@ SOFTWARE.
 
 				if(this.options.pauseOnHover){
 					$(this.wrapper).on('mouseenter', function(){
-						this.pause();
+						self.pause();
 					});
 					$(this.wrapper).on('mouseleave', function(){
-						this.play();
+						self.play();
 					});
 				}
 			}
 			if(this.options.keyboard){
 				$(document).on('keyup', (e) => {
-					if(!isMoving && !$(':focus').is('input, textarea')) {
+					if(!$(':focus').is('input, textarea')) {
 						if (e.keyCode === 37) {
 							self.prev();
 						} else if (e.keyCode === 39) {
